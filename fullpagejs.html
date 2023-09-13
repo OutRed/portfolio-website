@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OutRed - Project Showcase</title>
+    <link rel="stylesheet" href="fullpage.css">
+    <!-- fullpage.js css from cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.css">
+</head>
+<body>
+    <div id="fullpage">
+
+        <div class="section">
+            <img src="https://discord.c99.nl/widget/theme-4/858476546356412457.png" alt="OutRed's Discord Profile" />
+            <p>My internet name is OutRed, and yep, I'm still in school 📚. So, here's the scoop: I got into coding and web stuff back in middle school. Everybody was trying to play games on their school devices, but finding unblocked game sites was like finding a needle in a haystack. I promised my buddies I'd figure out how to make one. 🎮🕵️</p>
+            <p>Then, I stumbled upon GitHub and all these open-source game sites. I decided to play around with them and see what I could cook up and learn. After a week of tinkering with other people's web creations, I cracked the code on setting up a site using GitHub Pages, and created a website using markdown with various games. And boom! In April 2022, the OutRed game website came to life as my very first project. 🚀🌟</p>
+            <p class="scroll-down">Scroll down</p>
+        </div>
+
+        <div class="section">
+            <h1>My Projects</h1>
+            <div class="projects">
+            <div class="project">
+                <p class="project-title"><a href="https://github.com/outred/v4">OutRed Games</a></p>
+                <p class="project-text">OutRed Games is a game website featuring 400+ games and a fast web proxy. This is by far my biggest project, and my only monetized project.</p>
+            </div>
+            <div class="project">
+                <p class="project-title">OutRed Chatbox</p>
+                <p class="project-text">OutRed Chatbox is a website that allows you to connect to chatrooms and chat with people. Whether you're chatting with strangers in a random chatroom or with your buddies in a private chatroom, the choice is yours.</p>
+            </div>
+            <div class="project">
+                <p class="project-title">JARVIS</p>
+                <p class="project-text">Meet your new AI voice assistance. JARVIS was inspired from the Ironman movies, which is Tony Stark's AI voice assistant inside his helmet. JARVIS is powered by GPT-4 and has a voice of its own.</p>
+            </div>
+        </div>
+        <p>I have a lot of other projects on my PC, but most of them will never be seen because they either aren't polished or finished. </p>
+
+        <div class="section">
+            <h1>Future Plans/Projects</h1>
+        </div>
+
+    </div>
+
+    <!-- fullpage.js being loaded from cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.js"></script>
+    <script>
+        new fullpage('#fullpage', {
+            anchors: ['aboutme', 'myprojects', 'futureplans'],
+            sectionsColor: ['#121212', '#212121', '#121212'],
+            navigation: true,
+            navigationTooltips: ['About Me', 'My Projects', 'Future Plans/Projects'],
+        });
+    </script>
+</body>
+</html>
+ 
