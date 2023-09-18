@@ -5,6 +5,12 @@ body {
     font-size: 16px;
 }
 
+.blue {
+              background: -webkit-linear-gradient(rgb(0, 140, 255), rgb(0, 193, 241));
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+}
+
 /* custom scrollbar 
 /* width 
 ::-webkit-scrollbar {
